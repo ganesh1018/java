@@ -29,5 +29,37 @@ class Patterns{
 
 
     }
+      * 
+    * * 
+  * * * 
+* * * * 
+  * * * 
+    * * 
+      * 
+
+ for( int i=1;i<2*r;i++){
+    int spaces;
+    int stars;
+    if(i<r){
+    spaces=r-i;
+     stars=i;
+    }
+    else{
+        spaces=i-r;
+        stars=2*r-i;
+    }
+    for(int j=1;j<=spaces;j++){
+        System.out.print(" ");
+    }
+    for(int k=1;k<=stars;k++){
+        System.out.print("* ");
+    }
+    System.out.println();
+ }
+
+
+    
+
+
 }
     }
